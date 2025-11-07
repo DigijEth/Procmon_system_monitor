@@ -1,0 +1,21 @@
+[package]
+name = "procmon-tui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "procmon-tui"
+path = "src/main.rs"
+
+[dependencies]
+procmon-core = { path = "../procmon-core" }
+tokio.workspace = true
+anyhow.workspace = true
+ratatui.workspace = true
+crossterm.workspace = true
+chrono.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+serde.workspace = true
