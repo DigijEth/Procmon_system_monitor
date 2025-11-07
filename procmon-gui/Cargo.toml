@@ -1,0 +1,23 @@
+[package]
+name = "procmon-gui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "procmon-gui"
+path = "src/main.rs"
+
+[dependencies]
+procmon-core = { path = "../procmon-core" }
+tokio.workspace = true
+anyhow.workspace = true
+eframe.workspace = true
+egui.workspace = true
+egui_plot.workspace = true
+chrono.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+serde.workspace = true
+parking_lot.workspace = true
