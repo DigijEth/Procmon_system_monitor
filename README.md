@@ -1,3 +1,5 @@
+Note: The TUI is more complete and functional than the GUI
+
 # Process Monitor
 
 A comprehensive system and process monitoring application written in Rust with both Terminal UI (TUI) and Graphical UI (GUI) interfaces.
